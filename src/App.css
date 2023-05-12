@@ -1,0 +1,76 @@
+.App {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.notes-controls {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.notes-list {
+  margin-bottom: 20px;
+}
+
+.note-preview {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.note-preview h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.note-preview button {
+  margin-right: 10px;
+}
+
+.note-preview p {
+  font-size: 12px;
+  margin: 5px 0;
+}
+
+.note-form {
+  border: 1px solid #ccc;
+  padding: 20px;
+}
+  
+.note-form input,
+.note-form textarea {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 5px;
+  font-size: 14px;
+}
+
+.note-form button {
+  margin-top: 10px;
+  padding: 5px;
+  font-size: 14px;
+}
+
+.note-form button:last-child {
+  margin-left: 10px;
+}
+.linkButton{
+  border: none;
+  background-color: transparent;
+  color: inherit;
+  font-family: inherit;
+  font-size: inherit;
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+  text-align: left;
+}
